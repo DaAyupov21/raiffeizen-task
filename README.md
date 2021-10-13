@@ -9,7 +9,8 @@
 
 
 ###Примеры запросов
-```GET https://raiffeizentesttask.herokuapp.com/api/socks?color=purple&operation=moreThan&cottonPart=10
+```
+GET https://raiffeizentesttask.herokuapp.com/api/socks?color=purple&operation=moreThan&cottonPart=10
 
 ###
 
