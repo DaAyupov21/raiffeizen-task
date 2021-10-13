@@ -1,0 +1,27 @@
+GET localhost:5000/api/socks?color=purple&operation=moreThan&cottonPart=10
+
+###
+
+GET localhost:5000/api/socks?color=white&operation=lessThan&cottonPart=50
+
+###
+
+POST localhost:5000/api/socks/income
+Content-Type: application/json
+
+{
+  "color": "white",
+  "cottonPart": 45,
+  "quantity": 123
+}
+
+###
+
+POST localhost:5000/api/socks/outcome
+Content-Type: application/json
+
+{
+  "color": "white",
+  "cottonPart": 5,
+  "quantity": 2000
+}
