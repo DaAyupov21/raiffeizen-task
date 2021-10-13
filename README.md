@@ -8,7 +8,8 @@
 * узнать общее количество носков определенного цвета и состава в данный момент времени.
 
 
-###Примеры запросов
+### Примеры запросов
+
 ```
 GET https://raiffeizentesttask.herokuapp.com/api/socks?color=purple&operation=moreThan&cottonPart=10
 
